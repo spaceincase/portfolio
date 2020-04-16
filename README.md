@@ -1,2 +1,2 @@
-#Bradley Peterson
-##Full Stack Web Developer
+# Bradley Peterson
+## Full Stack Web Developer
