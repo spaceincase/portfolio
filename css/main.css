@@ -1,0 +1,19 @@
+.typeSwitcher {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.types {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.type {
+  
+}
