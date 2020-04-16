@@ -17,18 +17,30 @@ html {
 .navbar {
   position: fixed;
   top: 1rem;
-  width: 30%;
+  left: 1rem;
   z-index: 2;
   font-weight: 500;
+  transition: 600ms;
+}
+
+
+
+.navbar:hover .navItem {
+  display: block;
+}
+
+.navbar:hover #logo {
+  height: 3rem;
+  transform: rotate(360deg);
 }
 
 #logo {
   height: 2rem;
+  fill: white;
+  transition: 600ms;
 }
 
-#logo:hover {
-  height: 3rem;
-}
+
 
 .navItems {
   display: -webkit-flex;
@@ -43,14 +55,22 @@ html {
   height: 3rem;
   background-color: rgba(0,0,0,0.7);
   border-radius: 2rem;
+  transition: 600ms;
+}
+
+.navItem:last-child {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 
 
 .navItem {
+  display: none;
   cursor: pointer;
   padding: 1rem;
   color: #F4EBD6;
+  transition: 600ms;
 }
 
 .navItem:hover {
