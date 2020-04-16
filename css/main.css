@@ -1,3 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .navbar:hover #logo {
+    display:none;
+  }
+
+  .navItem:nth-child(2) {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 1rem;
+    left: 1rem;
+  }
+
+
+  .navbar:hover #logo {
+    height: 3rem;
+    transform: rotate(360deg);
+  }
+}
+
 :root {
   font-size: 16px;
   font-family: 'Baloo Bhaina 2', cursive;
@@ -16,23 +45,19 @@ html {
 
 .navbar {
   position: fixed;
-  top: 1rem;
-  left: 1rem;
   z-index: 2;
   font-weight: 500;
-  transition: 600ms;
+  transition: width 600ms ease;
 }
 
-
+.navbar:hover {
+  width: auto;
+}
 
 .navbar:hover .navItem {
   display: block;
 }
 
-.navbar:hover #logo {
-  height: 3rem;
-  transform: rotate(360deg);
-}
 
 #logo {
   height: 2rem;
@@ -55,7 +80,6 @@ html {
   height: 3rem;
   background-color: rgba(0,0,0,0.7);
   border-radius: 2rem;
-  transition: 600ms;
 }
 
 .navItem:last-child {
@@ -68,9 +92,9 @@ html {
 .navItem {
   display: none;
   cursor: pointer;
-  padding: 1rem;
   color: #F4EBD6;
   transition: 600ms;
+  padding: 1rem;
 }
 
 .navItem:hover {
