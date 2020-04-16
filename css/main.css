@@ -27,7 +27,7 @@
 
 .navItem {
   padding: 1rem;
-  color: white;
+  color: #F4EBD6;
 }
 
 .intro {
@@ -42,9 +42,9 @@
   justify-content: center;
   width: 100%;
   background-color: grey;
-  height: 45vh;
+  height: 100vh;
   font-family: 'Satisfy', cursive;
-  color: white;
+  color: #F4EBD6;
   background: linear-gradient(
     45deg,
     rgba(71,71,71,0.5) 0%,
@@ -56,7 +56,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 3rem;
 }
 
 .intro h1 {
