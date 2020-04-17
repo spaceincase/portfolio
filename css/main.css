@@ -161,17 +161,3 @@ section:nth-child(even) {
   background-color: #2D3047;
   color: #EE3587;
 }
-
-footer {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  width: 100%;
-  -ms-align-items: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #2D3047;
-  scroll-snap-align: end;
-  height: 5rem;
-  color: #EE3587;
-}
