@@ -60,7 +60,7 @@ html {
 
 #logo {
   height: 2rem;
-  fill: white;
+  fill: #F5F1ED;
   transition: 400ms;
 }
 
@@ -77,7 +77,7 @@ html {
   align-items: center;
   justify-content: center;
   height: 3rem;
-  background-color: rgba(89,89,89,0.7);
+  background-color: rgba(102, 110, 128, 0.7);
   border-radius: 2rem;
 }
 
@@ -98,8 +98,8 @@ html {
 }
 
 .navItem:hover {
-  background-color: white;
-  color: black;
+  background-color: #252323;
+  color: white;
 }
 
 .intro {
@@ -116,7 +116,7 @@ html {
   background-color: grey;
   height: 100vh;
   font-family: 'Satisfy', cursive;
-  color: #F4EBD6;
+  color: #DAD2BC;
   background: linear-gradient(
     45deg,
     rgba(71,71,71,0.5) 0%,
@@ -146,8 +146,8 @@ section {
   height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  color: #1B998B;
-  background-color: #FFFED1;
+  color: #252323;
+  background-color: #F5F1ED;
 }
 
 section h1 {
@@ -158,6 +158,6 @@ section h1 {
 }
 
 section:nth-child(even) {
-  background-color: #2D3047;
-  color: #EE3587;
+  background-color: #252323;
+  color: #F5F1ED;
 }
