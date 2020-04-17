@@ -47,7 +47,6 @@ html {
   position: fixed;
   z-index: 2;
   font-weight: 500;
-  transition: width 600ms ease;
 }
 
 .navbar:hover {
@@ -62,7 +61,7 @@ html {
 #logo {
   height: 2rem;
   fill: white;
-  transition: 600ms;
+  transition: 400ms;
 }
 
 
