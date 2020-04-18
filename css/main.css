@@ -99,9 +99,10 @@
 
   .contact p {
     width: 100%;
-    -ms-align-self: center;
-    align-self: center;
+    -ms-align-self: flex-end;
+    align-self: flex-end;
     text-align: center;
+    font-size: 6vw;
   }
   .contact img {
     width: 3rem;
