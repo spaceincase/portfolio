@@ -76,7 +76,7 @@
 
   .tech img {
     width: 4rem;
-    padding: 0.25rem;
+    padding: 0.5rem;
   }
 
   .techContainer {
@@ -427,6 +427,7 @@ section:nth-child(even) {
   align-items: center;
   justify-content: center;
   margin: auto;
+  margin-top: 15%;
   border: solid white 2px;
   border-radius: 2rem;
   background-color: rgba(96, 95, 95, 0.7);
