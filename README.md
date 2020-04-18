@@ -1,5 +1,8 @@
 # Bradley Peterson
 ## Full Stack Web Developer
 
-### Visit my website!
-[bradkpeterson.dev](https://www.bradkpeterson.dev "My Personal Webpage!")
+### Personal Portfolio
+Tech used
+1. HTML5
+2. CSS3
+3. JavaScript
