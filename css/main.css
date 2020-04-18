@@ -47,6 +47,10 @@
     padding: 0.5rem;
   }
 
+  .hobby p {
+    display: none;
+  }
+
   .information h2 {
     font-size: 2rem;
     text-align: center;
