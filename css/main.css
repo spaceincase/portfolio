@@ -458,7 +458,3 @@ section:nth-child(even) {
   text-decoration: none;
   color: white;
 }
-
-#projects {
-  display: none;
-}
