@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+
   .navbar {
     bottom: 1rem;
     left: 1rem;
@@ -44,7 +48,7 @@
 
   .hobby img {
     width: 4rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
   }
 
   .hobby p {
@@ -68,6 +72,7 @@
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
+    width: 90%;
   }
 
   .tech img {
@@ -104,6 +109,10 @@
 }
 
 @media only screen and (min-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
+
   .navbar {
     top: 1rem;
     left: 1rem;
@@ -265,7 +274,6 @@
 }
 
 :root {
-  font-size: 16px;
   font-family: 'Baloo Bhaina 2', cursive;
 }
 body::-webkit-scrollbar {
