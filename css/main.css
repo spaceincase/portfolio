@@ -47,8 +47,8 @@
   }
 
   .hobby img {
-    width: 4rem;
-    padding: 0.25rem;
+    width: 5rem;
+    padding: 0.5rem;
   }
 
   .hobby p {
@@ -72,7 +72,6 @@
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
-    width: 90%;
   }
 
   .tech img {
