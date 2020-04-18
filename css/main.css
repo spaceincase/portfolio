@@ -80,15 +80,16 @@
   }
 
   .techContainer {
-      width: 60%;
-      padding: 1rem;
+    width: 60%;
+    padding: 1rem;
+    margin-top: 15%;
   }
 
   .contactBtnsContainer {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-
+    margin-top: 15%;
   }
   .contact {
     margin-top: 1rem;
@@ -427,7 +428,6 @@ section:nth-child(even) {
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 15%;
   border: solid white 2px;
   border-radius: 2rem;
   background-color: rgba(96, 95, 95, 0.7);
@@ -452,7 +452,6 @@ section:nth-child(even) {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
   justify-content: center;
 }
 
