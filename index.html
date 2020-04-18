@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79678105-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-79678105-2');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -56,7 +65,7 @@
           <h2>How I Spend My Time</h2>
           <div class="hobbies">
             <div class="hobby">
-              <img src="src/images/kids.svg" alt="">
+              <img onclick="toggleOverlay()" src="src/images/kids.svg" alt="">
               <p>Spending time with my children is my favorite thing on this list. My kids mean the world to me. Watching them grow and learn never ceases to amaze me. </p>
             </div>
             <div class="hobby">

@@ -16,10 +16,6 @@
     display: none;
   }
 
-  .stats {
-    display: inline-block;
-  }
-
   .stat-head {
     display: -webkit-flex;
     display: -ms-flex;
@@ -47,7 +43,16 @@
   }
 
   .hobby p {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: none;
+  }
+
+  .overlay {
+    display: block;
   }
 
   .hobby img {
@@ -465,4 +470,8 @@ section:nth-child(even) {
   display: flex;
   text-decoration: none;
   color: white;
+}
+
+#projects {
+  display: none;
 }
