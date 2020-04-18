@@ -78,6 +78,10 @@
     width: 4rem;
     padding: 0.25rem;
   }
+
+  .techContainer {
+      width: 60%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -207,6 +211,10 @@
   .tech img {
     width: 7rem;
     padding: 1rem;
+  }
+
+  .techContainer {
+      width: 65%;
   }
 
 }
@@ -365,7 +373,6 @@ section:nth-child(even) {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  width: 75%;
   margin: auto;
   border: solid white 2px;
   border-radius: 2rem;
