@@ -51,7 +51,7 @@
   }
 
   .hobby img {
-    width: 5rem;
+    width: 4rem;
     padding: 0.5rem;
   }
 
@@ -72,6 +72,11 @@
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
+  }
+
+  .tech img {
+    width: 4rem;
+    padding: 0.25rem;
   }
 }
 
@@ -130,7 +135,7 @@
   .stats {
     margin: 1.5rem 0;
     display: grid;
-    grid-template: 1fr 1fr 1fr / 0.5fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr / 0.5fr 1fr;
     grid-row-gap: 1rem;
   }
   .stat-card h3 {
@@ -198,6 +203,12 @@
   .hobby p {
     margin-left: 1rem;
   }
+
+  .tech img {
+    width: 7rem;
+    padding: 1rem;
+  }
+
 }
 
 :root {
@@ -265,8 +276,6 @@ html {
   border-bottom-right-radius: 2rem;
 }
 
-
-
 .navItem {
   display: none;
   cursor: pointer;
@@ -311,13 +320,17 @@ html {
 
 
 .intro h1 {
-  position: inherit;
   font-size: 3rem;
 }
 
 .intro p {
   margin-top: 1rem;
   font-size: 1.5rem;
+}
+
+.intro p:last-child {
+  margin-top: 5rem;
+  font-size: 1.2rem;
 }
 
 section {
@@ -340,4 +353,73 @@ section h1 {
 section:nth-child(even) {
   background-color: #252323;
   color: #F5F1ED;
+}
+
+.techContainer {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  border: solid white 2px;
+  border-radius: 2rem;
+  background-color: rgba(96, 95, 95, 0.7);
+}
+
+.tech {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactBtnsContainer {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.tech p {
+  display: none;
+}
+.contact {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  height: 96px;
+  justify-content: space-between;
+}
+
+.contact img {
+  width: 4rem;
+  padding: 0.5rem;
+}
+
+.contact img:nth-child(2) {
+
+}
+
+.contact p {
+  text-align: center;
 }
