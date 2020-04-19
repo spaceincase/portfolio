@@ -92,6 +92,7 @@
   .contact {
     height: 3.5rem;
     border: solid white 2px;
+    margin: 0.25rem;
   }
 
   .contact p {
