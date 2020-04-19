@@ -99,8 +99,8 @@
 
   .contact p {
     width: 100%;
-    -ms-align-self: flex-end;
-    align-self: flex-end;
+    -ms-align-self: center;
+    align-self: center;
     text-align: center;
     font-size: 6vw;
   }
