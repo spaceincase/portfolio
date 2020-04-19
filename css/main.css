@@ -112,6 +112,17 @@
   #disclaimer {
     font-size: 0.75rem;
   }
+  .projects {
+    width: 75vw;
+  }
+
+  .slides div {
+    width: 75vw;
+    height: 45vh;
+  }
+  .slides div img {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -275,6 +286,17 @@
 
   .contactBtnsContainer {
       margin-top: 5rem;
+  }
+  .projects {
+    width: 55vw;
+  }
+
+  .slides div {
+    width: 55vw;
+    height: 23vw;
+  }
+  .slides div img {
+    width: 50vh;
   }
 
 }
@@ -480,10 +502,112 @@ section:nth-child(even) {
 #contact {
   position: relative;
 }
+
 #disclaimer {
   position: absolute;
   left: 50%;
   bottom: 0px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%)
+}
+
+.projects {
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.projectBtns {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
+  border: solid black 2px;
+  margin: 0.25rem;
+  color: black;
+}
+
+.projects a:hover {
+  background-color: black;
+  color: white;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides {
+  margin-top: 5vh;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  background-color: black;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides div {
+  flex-shrink: 0;
+  color: white;
+  margin-top: 2rem;
+}
+
+.slides ul {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides ul li {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 3rem;
+}
+
+.slides h2 {
+  font-size: 2rem;
+}
+
+.slides li img {
+  width: 25px;
+  padding: 0.25rem;
+}
+
+.jsIcon {
+  margin-top: 5px;
 }
