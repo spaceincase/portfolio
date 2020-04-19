@@ -108,6 +108,10 @@
     width: 3rem;
     padding: 0.25rem;
   }
+
+  #disclaimer {
+    font-size: 0.75rem;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -430,6 +434,7 @@ section:nth-child(even) {
   align-items: center;
   justify-content: center;
   margin: auto;
+  margin-top: 15vh;
   border: solid white 2px;
   border-radius: 2rem;
   background-color: rgba(96, 95, 95, 0.7);
@@ -471,4 +476,14 @@ section:nth-child(even) {
   display: flex;
   text-decoration: none;
   color: white;
+}
+#contact {
+  position: relative;
+}
+#disclaimer {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
 }
